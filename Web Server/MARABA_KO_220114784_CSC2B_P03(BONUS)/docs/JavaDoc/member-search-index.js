@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"acsse.csc2b.network","c":"ClientHandler","l":"ClientHandler(Socket)","u":"%3Cinit%3E(java.net.Socket)"},{"p":"acsse.csc2b.network","c":"WebServerApp","l":"initializeServer()"},{"p":"acsse.csc2b.network","c":"ClientHandler","l":"run()"},{"p":"acsse.csc2b.network","c":"WebServerApp","l":"WebServerApp(int)","u":"%3Cinit%3E(int)"}];updateSearchResults();

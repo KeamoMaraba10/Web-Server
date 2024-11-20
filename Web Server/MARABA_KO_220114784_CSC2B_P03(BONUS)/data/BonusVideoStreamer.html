@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <h1>Netflix</h1>
+    <video id="mediaPlayer" width="640" height="360" controls>
+        <source src="Sample.m4v" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+
+    <br>
+    <label for="videoSource">Choose a Clip:</label>
+    <select id="videoSource" onchange="videoPicker()">
+        <option value="Sample.m4v">clip 1</option>
+        <option value="video2.mp4">clip 2</option>
+        <option value="video3.mp4">clip 3</option>
+    </select>
+
+    <script>
+
+        //Make the video picker elements
+        function videoPicker() {
+            
+           const  src = document.getElementById('videoSource').value;
+            const vp = document.getElementById('mediaPlayer');
+            mediaPlayer.src = src;
+            mediaPlayer.load();
+            mediaPlayer.play();
+        }
+    </script>
+</body>
+</html>

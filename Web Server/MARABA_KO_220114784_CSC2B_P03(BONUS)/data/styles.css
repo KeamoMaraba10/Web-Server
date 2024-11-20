@@ -1,0 +1,34 @@
+body{
+
+    background-color: rgb(91, 73, 77);
+    color: rgb(231, 231, 231);
+}
+
+.content{
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content:space-around;
+    padding: 25px;
+    margin: 0;
+    /* width: 0; */
+}
+
+
+
+.text-content{
+
+padding:2%;
+}
+
+h1{
+
+    text-align: center;
+}
+
+p{
+
+    width: initial;
+    /* display: block; */
+}
